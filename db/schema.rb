@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 2021_03_16_205710) do
     t.string "title"
     t.string "platform_name"
     t.string "creator_name"
-    t.string "type"
+    t.string "type_name"
     t.string "asset_url"
     t.date "drop_date"
     t.time "drop_time"
