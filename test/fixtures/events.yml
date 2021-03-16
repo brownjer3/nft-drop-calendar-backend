@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  platform_name: MyString
+  creator_name: MyString
+  type: 
+  asset_url: MyString
+  drop_date: 2021-03-16
+  drop_time: 2021-03-16 15:57:10
+
+two:
+  title: MyString
+  platform_name: MyString
+  creator_name: MyString
+  type: 
+  asset_url: MyString
+  drop_date: 2021-03-16
+  drop_time: 2021-03-16 15:57:10
