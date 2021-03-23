@@ -6,8 +6,7 @@ class CreateEvents < ActiveRecord::Migration[6.1]
       t.string :creator_name
       t.string :type_name
       t.string :asset_url
-      t.date :drop_date
-      t.time :drop_time
+      t.datetime :drop_datetime
 
       t.timestamps
     end

@@ -18,8 +18,7 @@ ActiveRecord::Schema.define(version: 2021_03_23_161722) do
     t.string "creator_name"
     t.string "type_name"
     t.string "asset_url"
-    t.date "drop_date"
-    t.time "drop_time"
+    t.datetime "drop_datetime"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.boolean "free"
