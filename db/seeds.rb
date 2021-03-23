@@ -10,28 +10,34 @@ require "date"
 
 events = Event.create([
     {
-        asset_url: "https://res.cloudinary.com/nifty-gateway/image/upload/q_auto:good,w_500/v1615509111/AMatthew/YoungNSickMarch15/young-open-icon_pmmadt.png",
-        drop_time: Time.parse('18:30'),
-        drop_date: Date.parse("Mar 17 2021"),
-        title: "HARD TO EXPLAIN",
-        creator_name: "Young & Sick", 
-        platform_name: "Nifty Gateway", 
-        type_name: "art"
+        asset_url: "https://d9hhrg4mnvzow.cloudfront.net/on.wax.io/nimoy/78201d67-nimoy-cards-base-front-1_10a60e8000000000000028.png",
+        drop_time: Time.parse('13:00'),
+        drop_date: Date.parse("Mar 23 2021"),
+        title: "Leonard Nimoy collectibles",
+        creator_name: "Leonard Nimoy's family", 
+        platform_name: "WAX", 
+        free: false,
+        drop_link: "https://on.wax.io/nimoy/",
+        type_name: "Trading Cards"
     }, {
-        asset_url: "https://res.cloudinary.com/nifty-gateway/image/upload/q_auto:good,w_500/v1615502630/AMatthew/NateHillMarch15/nate-auction-icon_j7frwi.png",
-        drop_time: Time.parse('19:00'),
-        drop_date: Date.parse("Mar 17 2021"),
-        title: "Getaway",
-        creator_name: "Nate Hill", 
-        platform_name: "Nifty Gateway", 
-        type_name: "art"
+        asset_url: "https://cartombs.io/wp-content/uploads/2021/03/17.-Gutbuster.png",
+        drop_time: Time.parse('13:00'),
+        drop_date: Date.parse("Mar 27 2021"),
+        title: "Cartombs",
+        creator_name: "Rory McQueen", 
+        platform_name: "WAX", 
+        free: false,
+        drop_link: "https://cartombs.io/",
+        type_name: "Trading Cards"
     }, {
-        asset_url: "https://res.cloudinary.com/nifty-gateway/image/upload/q_auto:good,w_500/v1615497338/Ashley/PaulJackson/Screen_Shot_2021-03-11_at_4.15.29_PM_sne15a.png",
+        asset_url: "https://res.cloudinary.com/nifty-gateway/image/upload/q_jpegmini,w_1500/v1616300210/A/FelipePantone/pjimage_-_2021-03-21T001646.201_sxlc1x.jpg",
         drop_time: Time.parse('19:30'),
-        drop_date: Date.parse("Mar 17 2021"),
-        title: "INSIDES",
-        creator_name: "Paul Jackson", 
+        drop_date: Date.parse("Mar 24 2021"),
+        title: "The Graffiti Collection",
+        creator_name: "Felipe Pantone", 
         platform_name: "Nifty Gateway", 
-        type_name: "art"
+        free: false, 
+        drop_link: "https://niftygateway.com/collections/felipepantonepacks",
+        type_name: "Art"
     }
 ])
