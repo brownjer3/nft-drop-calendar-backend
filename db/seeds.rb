@@ -57,7 +57,7 @@ events = Event.create([
         drop_link: "https://niftygateway.com/collections/xcopyfive",
         type_name: "Art"
     }, {
-        asset_url: "https://res.cloudinary.com/nifty-gateway/image/upload/q_auto:good,w_800/v1616442850/Ashley/Xcopy5/SIPHON_BLUE_-_XCOPY_2089_lpyhje.webp",
+        asset_url: "https://assets.offf.barcelona/assets/uploads/artist/portrait/image/5ce3935eae173e04d22ec169@2x.jpg?v=1558418273563",
         drop_datetime: Time.parse('Mar 24 2021 18:30'),
         title: "The 2 Hour Portrait",
         creator_name: "Corridor Digital x Beeple", 
