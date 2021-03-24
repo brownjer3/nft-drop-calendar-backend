@@ -16,6 +16,6 @@ class EventsController < ApplicationController
 
     private
     def event_params 
-        params.require(:event).permit(:title, :creator_name, :platform_name, :asset_url, :drop_link, :drop_datetime, :type_name, :free)
+        params.require(:event).permit(:title, :creator_name, :platform_name, :asset_url, :drop_link, :drop_datetime, :type_name, :free, :timezone)
     end 
 end
