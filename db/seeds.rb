@@ -38,5 +38,33 @@ events = Event.create([
         free: false, 
         drop_link: "https://niftygateway.com/collections/felipepantonepacks",
         type_name: "Art"
+    }, {
+        asset_url: "https://res.cloudinary.com/nifty-gateway/image/upload/q_jpegmini,w_1500/v1616381993/AMatthew/KygoMarch24/Thumbnails/kygo-open-cover_kmk4l2.jpg",
+        drop_datetime: Time.parse('Mar 24 2021 13:30'),
+        title: "The Endless Journey",
+        creator_name: "Kygo", 
+        platform_name: "Nifty Gateway", 
+        free: true,
+        drop_link: "https://niftygateway.com/collections/kygoopens",
+        type_name: "Art"
+    }, {
+        asset_url: "https://res.cloudinary.com/nifty-gateway/image/upload/q_auto:good,w_800/v1616442850/Ashley/Xcopy5/SIPHON_BLUE_-_XCOPY_2089_lpyhje.webp",
+        drop_datetime: Time.parse('Mar 24 2021 18:30'),
+        title: "TRAITORS",
+        creator_name: "XCOPY", 
+        platform_name: "Nifty Gateway", 
+        free: true,
+        drop_link: "https://niftygateway.com/collections/xcopyfive",
+        type_name: "Art"
+    }, {
+        asset_url: "https://res.cloudinary.com/nifty-gateway/image/upload/q_auto:good,w_800/v1616442850/Ashley/Xcopy5/SIPHON_BLUE_-_XCOPY_2089_lpyhje.webp",
+        drop_datetime: Time.parse('Mar 24 2021 18:30'),
+        title: "The 2 Hour Portrait",
+        creator_name: "Corridor Digital x Beeple", 
+        platform_name: "Makers Place", 
+        free: true,
+        drop_link: "https://makersplace.com/corridordigital/drops/the-2-hour-portrait/",
+        type_name: "Art"
     }
+
 ])
